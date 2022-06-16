@@ -9,6 +9,7 @@ header {
 }
 header h2 {
 	color: hsla(51, 94%, 50%, 0.856);
+	margin-bottom: 0;
 }
 nav ul {
 	list-style-type: none;
