@@ -1,0 +1,39 @@
+.header-picture {
+	margin: auto;
+}
+
+header {
+	text-align: center;
+	background-color: #407851;
+	color: rgb(255, 255, 255);
+}
+header h2 {
+	color: hsla(51, 94%, 50%, 0.856);
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #407851;
+	text-align: center;
+	font-size: x-large;
+	font-style: italic;
+}
+nav ul li {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	color: white;
+}
+nav a:link,
+nav a:visited,
+nav a:active {
+	color: white;
+	text-decoration: none;
+}
+nav ul li :hover {
+	background-color: hsla(51, 94%, 50%, 0.856);
+}
+body {
+	background-color: blanchedalmond;
+}

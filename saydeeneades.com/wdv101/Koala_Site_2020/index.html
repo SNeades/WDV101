@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title>Koala site Home page</title>
+		<link rel="stylesheet" href="koala.css" />
+
 		<meta name="author" content="Saydee Neades" />
 		<meta
 			name="description"
@@ -13,88 +15,136 @@
     Koala Website - Unit 1, Lesson 3
     May 31, 2022
 -->
+		<style>
+			/*  CSS goes here, must follow CSS Syntax rules
+			         CSS rule
+			         Selector {
+			             Css Command: value;
+			             ...
+			         }
+			         CSS Selector is how we connect our CSS rule to a piece of HTML
+			         Element Selector - applies to all the elements on the page
+			                         h2 the css rule will apply to ALL h2 elements on the page
+			         Group Selector - apply the same CSS rules to multiple elements uses a , to combine the elements
+			         Descendent/Contectual Selector - uses ro HTML structure tp apply CSS rules header h2 - all h2 elements within a header element
+			                  uses a space to indicate relationship
+			         Id Selector-
+			         Universal Selector
+			         */
+
+			footer p {
+				text-align: center;
+			}
+			.italicsText {
+				font-style: italic;
+			}
+			.color-text {
+				color: #407851;
+				font-size: medium;
+			}
+			.border-font {
+				border: 2px solid black;
+				margin: auto;
+				font-family: fantasy;
+				width: fit-content;
+				font-weight: lighter;
+			}
+		</style>
 	</head>
 	<section id="top"></section>
 	<body>
-		<header>
-			<img
-				src="images/koala_banner.jpg"
-				alt="Koala banner"
-				title="Koala banner"
-			/>
+		<div>
+			<header>
+				<div>
+					<img
+						src="images/koala_banner.jpg"
+						alt="Koala banner"
+						title="Koala banner"
+						class="header-picture"
+					/>
+				</div>
 
-			<h1>Koala Bear National Information Center</h1>
-		</header>
-
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li>About Koalas</li>
-				<li><a href="faq.html">Frequently Asked Questions</a></li>
-				<li><a href="save_koalas.html">Save Koalas</a></li>
-				<li>Gallery</li>
-				<li>Adopt</li>
-				<li>Contact Us</li>
-			</ul>
-		</nav>
-
-		<main>
-			<img
-				src="images/Koala_Sleeping.jpg"
-				alt="Koala Sleeping in a tree"
-				title="Koala Sleeping in a tree"
-				width="20%"
-				height="30%"
-			/>
-			<p>
-				Welcome to the Koala Bear National Information Center! In this
-				site you can learn about Koala bears, adopt a Koala, give to our
-				foundation, sign up for our newsletter, or schedule a
-				visit.Please take some time to explore the information provided
-				in this site!
-			</p>
-			<p>
-				The Koala Bear National Information Center (KBNIC) is the
-				principal non-profit, non-government organization dedicated to
-				the conservation and effective management of the wild koala and
-				its habitat.
-			</p>
-			<p>
-				The KBNIC was formed in 2006. Since our founding the KBNIC has
-				grown from a small group of people interested in researching
-				koala disease, to a well-known, global organization with a
-				strong track record in strategic koala research, conservation
-				and community education with a huge focus on mapping -- our
-				absolute strength.
-			</p>
-			<p>
-				Koalas are disappearing. Loss of koala habitat and koala food
-				trees (eucalyptus leaves) is the leading koala threat. Our
-				cuddly koalas are loved around the world. Often called a koala
-				bear, they are actually marsupials not koala bears. Please help
-				koalas by supporting the Australian Koala Foundation.
-			</p>
-			<video width="320" height="240" controls>
-				<source
-					src="images/Koalas - 109720.mp4"
-					alt="Koala in their habitat"
-					type="video/mp4"
-				/>
-			</video>
-		</main>
-
-		<footer>
-			<p>
-				Copyright 2018 All rights reserved. Australian Koala Foundation
+				<h1>Koala Bear National Information Center</h1>
+				<h2>Information Page</h2>
+			</header>
+			<main>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>About Koalas</li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="save_koalas.html">Save Koalas</a></li>
+						<li>Gallery</li>
+						<li>Adopt</li>
+						<li>Contact Us</li>
+					</ul>
+				</nav>
 				<img
-					src="images/koala_logo.svg"
-					width="100px"
-					alt="Koala Logo"
-					title="Koala Logo"
+					src="images/Koala_Sleeping.jpg"
+					alt="Koala Sleeping in a tree"
+					title="Koala Sleeping in a tree"
+					width="20%"
+					height="30%"
 				/>
-			</p>
 
-			<a href="#top">Back to top</a>
-		</footer>
+				<h2 class="border-font">
+					Welcome to the Koala Bear National Information Center!
+				</h2>
+
+				<p class="color-text">
+					In this site you can learn about Koala bears, adopt a Koala,
+					give to our foundation, sign up for our newsletter, or
+					schedule a visit.Please take some time to explore the
+					information provided in this site!
+				</p>
+
+				<p class="color-text">
+					The Koala Bear National Information Center (KBNIC) is the
+					principal non-profit, non-government organization dedicated
+					to the conservation and effective management of the wild
+					koala and its habitat.
+				</p>
+				<p class="color-text">
+					The KBNIC was formed in 2006. Since our founding the KBNIC
+					has grown from a small group of people interested in
+					researching koala disease, to a well-known, global
+					organization with a strong track record in strategic koala
+					research, conservation and community education with a huge
+					focus on mapping -- our absolute strength.
+				</p>
+				<p class="color-text">
+					Koalas are disappearing. Loss of koala habitat and koala
+					food trees (<span class="italicsText"
+						>eucalyptus leaves</span
+					>) is the leading koala threat. Our cuddly koalas are loved
+					around the world. Often called a koala bear, they are
+					actually marsupials not koala bears. Please help koalas by
+					supporting the Australian Koala Foundation.
+				</p>
+
+				<video width="320" height="240" controls>
+					<source
+						src="images/Koalas - 109720.mp4"
+						alt="Koala in their habitat"
+						type="video/mp4"
+					/>
+				</video>
+			</main>
+
+			<footer>
+				<p>
+					Copyright 2018 All rights reserved. Australian Koala
+					Foundation
+					<img
+						src="images/koala_logo.svg"
+						width="100px"
+						alt="Koala Logo"
+						title="Koala Logo"
+					/>
+				</p>
+
+				<a href="#top">Back to top</a>
+			</footer>
+		</div>
 	</body>
 </html>
