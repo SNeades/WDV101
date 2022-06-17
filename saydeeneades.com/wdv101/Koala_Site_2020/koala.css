@@ -1,3 +1,8 @@
+@font-face {
+	font-family: indieFlower;
+	src: url(fonts/IndieFlower-Regular.ttf);
+}
+
 .header-picture {
 	margin: auto;
 }
@@ -7,10 +12,20 @@ header {
 	background-color: #407851;
 	color: rgb(255, 255, 255);
 }
+header h1 {
+	color: hsla(51, 94%, 50%, 0.856);
+	margin-bottom: 0;
+}
+
 header h2 {
 	color: hsla(51, 94%, 50%, 0.856);
 	margin-bottom: 0;
 }
+
+footer p {
+	text-align: center;
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -37,4 +52,24 @@ nav ul li :hover {
 }
 body {
 	background-color: blanchedalmond;
+}
+
+p {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+h2 {
+	font-family: indieFlower;
+}
+
+h3 {
+	font-family: indieFlower;
+}
+
+li {
+	font-family: 'Lobster', cursive;
 }
