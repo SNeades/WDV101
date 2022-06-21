@@ -3,8 +3,22 @@
 	src: url(fonts/IndieFlower-Regular.ttf);
 }
 
+.first-p::first-letter {
+	font-style: Oblique;
+	font-size: 30px;
+}
+
+.main-content {
+	margin: auto 20%;
+	background-color: blanchedalmond;
+	padding: 10px;
+}
+
 .header-picture {
 	margin: auto;
+	padding: 0;
+	border: solid;
+	border-color: black;
 }
 
 header {
@@ -51,7 +65,9 @@ nav ul li :hover {
 	background-color: hsla(51, 94%, 50%, 0.856);
 }
 body {
-	background-color: blanchedalmond;
+	background-image: url('images/valeriia-miller-fEPMUhO5kCc-unsplash.jpg');
+	background-size: contain;
+	background-attachment: fixed;
 }
 
 p {
@@ -62,10 +78,7 @@ h1 {
 	font-family: 'Lobster', cursive;
 }
 
-h2 {
-	font-family: indieFlower;
-}
-
+h2,
 h3 {
 	font-family: indieFlower;
 }
