@@ -86,3 +86,11 @@ h3 {
 li {
 	font-family: 'Lobster', cursive;
 }
+
+.float-right {
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
