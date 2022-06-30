@@ -1,0 +1,118 @@
+<html lang="en">
+	<head>
+		<meta name="author" content="Saydee Neades" />
+		<meta name="description" content="Contact us page for the Koala site" />
+
+		<!-- Unit 3 Lesson 1 6/29/22 -->
+		<link rel="stylesheet" href="koala.css" />
+		<title>Contact Us</title>
+	</head>
+	<body>
+		<div class="main-content">
+			<header>
+				<div>
+					<img
+						src="images/koala_banner.jpg"
+						alt="Koala banner"
+						title="Koala banner"
+						class="header-picture"
+					/>
+				</div>
+
+				<h1>Contact Us</h1>
+			</header>
+
+			<main>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>About Koalas</li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li>
+							<a href="save_koalas.html">Save Koalas</a>
+						</li>
+						<li>Gallery</li>
+						<li>Adopt</li>
+						<li><a href="contact_us.html">Contact Us </a></li>
+					</ul>
+				</nav>
+
+				<div>
+					<form method="post" action="#">
+						<p>
+							<label for="firstName">First Name</label>
+							<input
+								id="firstName"
+								type="text"
+								name="firstName"
+								placeholder="First Name"
+							/>
+
+							<label for="lastName">Last Name</label>
+							<input
+								id="lastName"
+								type="text"
+								name="lastName"
+								placeholder="Last Name"
+							/>
+						</p>
+						<p>
+							<label for="email">Email</label>
+							<input
+								id="email"
+								type="email"
+								name="email"
+								placeholder="Email"
+							/>
+
+							<label for="phoneNumber">Phone Number</label>
+							<input
+								id="phoneNumber"
+								type="tel"
+								name="phoneNumber"
+								placeholder="Phone Number"
+							/>
+						</p>
+						<p>
+							<label for="comment">Comment</label>
+							<textarea
+								name="Comment"
+								id="Comment"
+								cols="30"
+								rows="10"
+							></textarea>
+						</p>
+						<p>
+							<label for="color">Favorite Color:</label>
+							<label for="blue">Blue</label>
+							<input
+								type="radio"
+								name="color"
+								id="blue"
+								value="blue"
+							/>
+							<label for="green">Green</label>
+
+							<input
+								type="radio"
+								name="color"
+								id="green"
+								value="green"
+							/>
+							<label for="red">Red</label>
+
+							<input
+								type="radio"
+								name="color"
+								id="red"
+								value="red"
+							/>
+						</p>
+						<input type="submit" value="Submit" />
+						<input type="reset" value="Reset" />
+					</form>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
