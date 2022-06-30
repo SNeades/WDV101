@@ -1,0 +1,73 @@
+body {
+	background-image: url('images/Koala_Sleeping.jpg');
+	background-attachment: fixed;
+}
+
+.main-content {
+	display: flex;
+	margin: auto 20%;
+	flex-direction: column;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+li {
+	white-space: nowrap;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	width: 100%;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
+
+.background-white {
+	background-color: blanchedalmond;
+}
+
+.background-green {
+	background-color: olivedrab;
+}
+
+.padding-10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.padding-top-10 {
+	padding-top: 10px;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.border {
+	border: solid black;
+}
+
+.border-bottom {
+	border-bottom: solid black;
+}
