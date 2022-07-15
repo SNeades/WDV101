@@ -38,7 +38,7 @@
 				</nav>
 
 				<div>
-					<form method="post" action="#">
+					<form method="post" action="form_response_basic.php">
 						<p>
 							<label for="firstName">First Name</label>
 							<input
@@ -74,38 +74,40 @@
 							/>
 						</p>
 						<p>
-							<label for="comment">Comment</label>
+							<label for="comment"
+								>What can we help you with?</label
+							>
 							<textarea
 								name="Comment"
 								id="Comment"
 								cols="30"
-								rows="10"
+								rows="5"
 							></textarea>
 						</p>
 						<p>
-							<label for="color">Favorite Color:</label>
-							<label for="blue">Blue</label>
+							<label for="time">Best time to contact you?:</label>
+							<label for="Morning">Morning</label>
 							<input
 								type="radio"
-								name="color"
-								id="blue"
-								value="blue"
+								name="time"
+								id="Morning"
+								value="Morning"
 							/>
-							<label for="green">Green</label>
+							<label for="time">Noon</label>
 
 							<input
 								type="radio"
-								name="color"
-								id="green"
-								value="green"
+								name="time"
+								id="Noon"
+								value="Noon"
 							/>
-							<label for="red">Red</label>
+							<label for="time">Evening</label>
 
 							<input
 								type="radio"
-								name="color"
-								id="red"
-								value="red"
+								name="time"
+								id="Evening"
+								value="Evening"
 							/>
 						</p>
 						<input type="submit" value="Submit" />
