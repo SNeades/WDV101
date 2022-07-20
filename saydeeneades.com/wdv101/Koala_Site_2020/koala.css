@@ -1,3 +1,9 @@
+@media screen and (max-width: 400px) {
+	body {
+		background-color: greenyellow;
+	}
+}
+
 @font-face {
 	font-family: indieFlower;
 	src: url(fonts/IndieFlower-Regular.ttf);
@@ -6,19 +12,6 @@
 .first-p::first-letter {
 	font-style: Oblique;
 	font-size: 30px;
-}
-
-.main-content {
-	margin: auto 20%;
-	background-color: blanchedalmond;
-	padding: 10px;
-}
-
-.header-picture {
-	margin: auto;
-	padding: 0;
-	border: solid;
-	border-color: black;
 }
 
 header {
@@ -99,4 +92,65 @@ li {
 
 .float-left {
 	float: left;
+}
+
+#container {
+	width: 60%;
+	justify-content: center;
+}
+#columns {
+	column-count: 3;
+	column-gap: 10px;
+	column-rule-style: solid;
+	column-fill: auto;
+}
+
+.koalaImage {
+	border: thick solid #407851;
+	margin: 5px;
+}
+.koalaImage figure {
+	border: thin solid black;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px black;
+}
+figcaption {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: medium;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.text-align {
+	text-align: center;
+	font-size: larger;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.background-green {
+	background-color: #407851;
+}
+
+.header-picture {
+	margin: auto;
+	padding: 0;
+	border: solid black;
+	width: 90%;
+}
+
+.main-content {
+	display: flex;
+	margin: auto 20%;
+	flex-direction: column;
+	background-color: blanchedalmond;
 }

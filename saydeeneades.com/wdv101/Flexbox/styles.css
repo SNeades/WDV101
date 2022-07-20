@@ -1,0 +1,112 @@
+@font-face {
+	font-family: cinzel;
+	src: url(fonts/Cinzel/);
+}
+
+.first-p::first-letter {
+	font-style: Oblique;
+	font-size: 30px;
+}
+
+.main-content {
+	margin: auto 20%;
+	background-color: rgb(27, 169, 235);
+	padding: 10px;
+}
+
+.header-picture {
+	margin: auto;
+	padding: 0;
+	border: solid;
+	border-color: black;
+}
+
+header {
+	text-align: center;
+	background-color: rgb(27, 169, 235);
+	color: rgb(255, 255, 255);
+}
+header h1 {
+	color: hsla(45, 2%, 47%, 0.856);
+	margin-bottom: 0;
+	font-family: Cinzel;
+}
+
+header h2 {
+	color: hsla(318, 94%, 50%, 0.856);
+	margin-bottom: 0;
+}
+
+footer p,
+h2 {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: hsla(45, 2%, 47%, 0.856);
+	text-align: center;
+	font-size: x-large;
+	font-style: italic;
+}
+nav ul li {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	color: white;
+}
+nav a:link,
+nav a:visited,
+nav a:active {
+	color: white;
+	text-decoration: none;
+}
+nav ul li :hover {
+	background-color: hsla(318, 85%, 51%, 0.856);
+}
+body {
+	background-color: hsla(0, 0%, 3%, 0.856);
+}
+
+p {
+	font-family: cinzel;
+}
+
+h1 {
+	font-family: cinzel;
+}
+
+h2 {
+	font-family: cinzel;
+}
+
+h3,
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-family: cinzel;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+#container {
+	width: 60%;
+	justify-content: center;
+}
+#columns {
+	column-count: 3;
+	column-gap: 10px;
+	column-rule-style: solid;
+	column-fill: auto;
+}

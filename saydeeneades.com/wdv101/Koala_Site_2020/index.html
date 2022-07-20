@@ -22,22 +22,6 @@
     May 31, 2022
 -->
 		<style>
-			/*  CSS goes here, must follow CSS Syntax rules
-			         CSS rule
-			         Selector {
-			             Css Command: value;
-			             ...
-			         }
-			         CSS Selector is how we connect our CSS rule to a piece of HTML
-			         Element Selector - applies to all the elements on the page
-			                         h2 the css rule will apply to ALL h2 elements on the page
-			         Group Selector - apply the same CSS rules to multiple elements uses a , to combine the elements
-			         Descendent/Contectual Selector - uses ro HTML structure tp apply CSS rules header h2 - all h2 elements within a header element
-			                  uses a space to indicate relationship
-			         Id Selector-
-			         Universal Selector
-			         */
-
 			.italics {
 				font-style: italic;
 			}
@@ -58,7 +42,7 @@
 	</head>
 	<section id="top"></section>
 	<body>
-		<div class="main-content">
+		<div id="container" class="main-content">
 			<header>
 				<div>
 					<img
@@ -81,9 +65,11 @@
 						<li>
 							<a href="save_koalas.html">Save Koalas</a>
 						</li>
-						<li>Gallery</li>
+						<li>
+							<a href="gallery.html">Gallery</a>
+						</li>
 						<li>Adopt</li>
-						<li><a href="contact_us.html">Contact Us </a></li>
+						<li><a href="contact_us.html">Contact Us</a></li>
 					</ul>
 				</nav>
 				<img

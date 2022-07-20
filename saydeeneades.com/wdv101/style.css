@@ -1,0 +1,46 @@
+@font-face {
+	font-family: AmaticSC-Regular;
+	src: url(fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
+header {
+	font-family: AmaticSC-Regular;
+}
+
+body {
+	background-image: url('images/annie-spratt-zA7I5BtFbvw-unsplash.jpg');
+	background-size: contain;
+}
+#container {
+}
+
+.main-content {
+	font-family: AmaticSC-Regular;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	background-color: rgb(240, 187, 138);
+	margin: 1.5 auto;
+	border: 10px solid pink;
+}
+
+.picture {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.a {
+	font-size: xx-large;
+}
