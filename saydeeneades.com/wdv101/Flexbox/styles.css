@@ -27,7 +27,7 @@ header {
 	color: rgb(255, 255, 255);
 }
 header h1 {
-	color: hsla(45, 2%, 47%, 0.856);
+	color: black;
 	margin-bottom: 0;
 	font-family: Cinzel;
 }
@@ -72,6 +72,7 @@ body {
 
 p {
 	font-family: cinzel;
+	font-weight: 900;
 }
 
 h1 {
