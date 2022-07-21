@@ -1,11 +1,3 @@
-@font-face {
-	font-family: AmaticSC-Regular;
-	src: url(fonts/Amatic_SC/AmaticSC-Regular.ttf);
-}
-header {
-	font-family: AmaticSC-Regular;
-}
-
 body {
 	background-image: url('images/annie-spratt-zA7I5BtFbvw-unsplash.jpg');
 	background-size: contain;
@@ -14,7 +6,6 @@ body {
 }
 
 .main-content {
-	font-family: AmaticSC-Regular;
 	display: flex;
 	flex-direction: column;
 	width: 80%;
