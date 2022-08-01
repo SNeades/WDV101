@@ -10,6 +10,20 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 
+		<style>
+			.flex-form {
+				display: flex;
+				margin-bottom: 0.3em;
+				justify-content: space-between;
+			}
+
+			.flex-form label {
+				text-align: left;
+				margin-top: 0.5em;
+				margin-right: 0.5em;
+			}
+		</style>
+
 		<!-- Saydee Neades 7/28/22 -->
 		<!-- Images from https://unsplash.com/s/photos/coffee-shop -->
 		<!-- Nav menu from https://codepen.io/alvarotrigo/pen/XWejzjR -->
@@ -49,144 +63,210 @@
 				/>
 			</section>
 
+			<div style="margin: 0px 40%">
+				<div class="flex-column w-100">
+					<h1 class="center">Careers</h1>
+					<h3 class="center">
+						Fill out the infornmation below to join us!
+					</h3>
+					<form
+						class="flex-column"
+						method="post"
+						action="/action_page.php"
+					>
+						<div class="flex-form">
+							<label for="first name">First Name: </label>
+							<input
+								id="first name"
+								type="text"
+								name="first name"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="first name">Last Name:</label>
+							<input
+								id="last name"
+								type="text"
+								name="last name"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="address">Address:</label>
+							<input
+								id="address"
+								type="text"
+								name="address"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="city">City:</label>
+							<input
+								id="city"
+								type="text"
+								name="city"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="state">State:</label>
+							<input
+								id="state"
+								type="text"
+								name="state"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="zip code">Zip Code:</label>
+							<input
+								id="zip code"
+								type="text"
+								name="zip code"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="date of birth">Date of birth:</label>
+							<input
+								id="date of birth"
+								type="date"
+								name="date of birth"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="phone number">Phone Number:</label>
+							<input
+								id="phone number"
+								type="tel"
+								name="phone number"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="type of phone"></label>
+							<label for="mobile">Mobile Phone:</label>
+							<input
+								type="radio"
+								name="type of phone"
+								id="mobile"
+								value="mobile"
+								class="w-fit"
+							/>
+							<label for="type of phone">Home Phone:</label>
+							<input
+								type="radio"
+								name="type of phone"
+								id="home phone"
+								value="home phone"
+								class="w-fit"
+							/>
+						</div>
+						<div class="flex-form">
+							<label for="email">Email:</label>
+							<input
+								id="email"
+								type="email"
+								name="email"
+								class="w-fit"
+							/>
+						</div>
+						<h4>What position are you appling for?</h4>
+						<div
+							class="flex-column"
+							style="align-items: flex-start"
+						>
+							<div>
+								<input
+									type="checkbox"
+									id="barista"
+									name="barista"
+									value="barista"
+									class="w-fit"
+								/>
+								<label for="barista">Barista</label>
+							</div>
+							<div>
+								<input
+									type="checkbox"
+									id="assistant manager"
+									name="assistant manager"
+									value="assistant manager"
+									class="w-fit"
+								/>
+								<label for="assistant manager"
+									>Assistant Manager</label
+								>
+							</div>
+							<div>
+								<input
+									type="checkbox"
+									id="manager"
+									name="manager"
+									value="manager"
+									class="w-fit"
+								/>
+								<label for="manager">Manager</label>
+							</div>
+						</div>
+						<h4>What are you wanting to work?</h4>
+						<div
+							class="flex-column"
+							style="align-items: flex-start"
+						>
+							<div>
+								<label for="hours">Full Time</label>
+								<input
+									type="radio"
+									name="hours"
+									id="full time"
+									value="full time"
+									class="w-fit"
+								/>
+							</div>
+							<div>
+								<label for="hours">Part Time</label>
+								<input
+									type="radio"
+									name="hours"
+									id="part time"
+									value="part time"
+									class="w-fit"
+								/>
+							</div>
+						</div>
+						<input type="file" id="myFile" name="filename" />
+						<br />
+						<div class="flex-row">
+							<input type="submit" style="width: 100px" />
+							<input
+								type="reset"
+								value="Reset"
+								style="width: 100px"
+							/>
+						</div>
+					</form>
+				</div>
+			</div>
 			<br />
-			<h1>Careers</h1>
-			<h2></h2>
-			<h3>Fill out the infornmation below to join us!</h3>
-			<form method="post" action="#">
-			<p>
-				<label for="first name">First Name</label>
-				<input id="first name" type="text" name="first name" />
-			</p>
-			<p>
-				<label for="first name">Last Name</label>
-				<input id="last name" type="text" name="last name" />
-			</p>
-			<p>
-				<label for="address">Address</label>
-				<input id="address" type="text" name="address" />
-			</p>
-			<p>
-				<label for="city">City</label>
-				<input id="city" type="text" name="city" />
-			</p>
-			<p>
-				<label for="state">State</label>
-				<input id="state" type="text" name="state" />
-			</p>
-			<p>
-				<label for="zip code">Zip Code</label>
-				<input id="zip code" type="text" name="zip code" />
-			</p>
-			<p>
-				<label for="date of birth">Date of birth</label>
-				<input id="date of birth" type="date" name="date of birth" />
-			</p>
-			<p>
-				<label for="phone number">Phone Number</label>
-				<input id="phone number" type="tel" name="phone number" />
-			</p>
 
-			<p>
-				<label for="type of phone"></label>
-				<label for="mobile">Mobile Phone</label>
-				<input
-					type="radio"
-					name="type of phone"
-					id="mobile"
-					value="mobile"
+			<div class="flex-row space">
+				<img
+					src="images/cupofcoffee-unsplash.jpg"
+					alt="cup of coffee"
+					title="cup of coffee"
+					width="20%"
 				/>
-				<label for="type of phone">Home Phone</label>
-
-				<input
-					type="radio"
-					name="type of phone"
-					id="home phone"
-					value="home phone"
+				<img
+					src="images/quan-le-GKnCGtuR4xs-unsplash.jpg"
+					alt="barista making coffee"
+					title="barista making coffee"
+					width="20%"
 				/>
-			</p>
-			<p>
-				<label for="email">Email</label>
-				<input id="email" type="email" name="email" />
-			</p>
-			<h4>What position are you appling for?</h4>
-			<input
-				type="checkbox"
-				id="barista"
-				name="barista"
-				value="barista"
-			/>
-
-			<label for="barista">Barista</label>
-			<br />
-			<input
-				type="checkbox"
-				id="assistant manager"
-				name="assistant manager"
-				value="assistant manager"
-			/>
-			<label for="assistant manager">Assistant Manager</label>
-			<br />
-
-			<input
-				type="checkbox"
-				id="manager"
-				name="manager"
-				value="manager"
-			/>
-			<label for="manager">Manager</label>
-			<br />
-
-			<p>
-				<label for="what are you wanting to work">What are you wanting to work?</label>
-				<label for="hours">Full Time</label>
-				<input
-					type="radio"
-					name="hours"
-					id="full time"
-					value="full time"
-				/>
-				<label for="hours">Part Time</label>
-
-				<input
-					type="radio"
-					name="hours"
-					id="part time"
-					value="part time"
-				/>
-			</p>
-
-			<form action="/action_page.php">
-				<input type="file" id="myFile" name="filename" />
-				<input type="submit" />
-				<input type="reset" value="reset" />
-			</form>
-            <h1>We would love your feedback, please let know how we can serve you better!</h1>
-            <form method="post" action="#">
-                <p>
-                    <label for="comment"
-                        >comments and suggestions</label
-                    >
-                    <textarea
-                        name="Comment"
-                        id="Comment"
-                        cols="30"
-                        rows="5"
-                    ></textarea>
-                </p>
-
-			<img
-				src="images/cupofcoffee-unsplash.jpg"
-				alt="cup of coffee"
-				title="cup of coffee"
-				width="20%"
-			/>
-			<img
-				src="images/quan-le-GKnCGtuR4xs-unsplash.jpg"
-				alt="barista making coffee"
-				title="barista making coffee"
-				width="20%"
-			/>
+			</div>
 		</div>
 		<footer style="background-color: #202020; height: 100px">
 			<p style="text-align: center; color: beige">

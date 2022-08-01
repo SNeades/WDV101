@@ -41,6 +41,11 @@ main-content {
 .w-80 {
 	width: 80%;
 }
+
+.w-fit {
+    width: fit-content;
+}
+
 .text {
 	width: 600px;
 	border: 6px solid #0000;
